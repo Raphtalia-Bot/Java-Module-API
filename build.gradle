@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.raphtalia'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "io.projectreactor:reactor-core:3.4.2"
+    compile "io.projectreactor.netty:reactor-netty-http:1.0.3"
+}
